@@ -1,0 +1,34 @@
+.card {
+	list-style: none;
+	> img {
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+	&-meta {
+		margin: 8px 0;
+	}
+	&-category {
+		color: #F54997;
+		font-size: 14px;
+		font-weight: 300;
+		display: block;
+		margin-bottom: 4px;
+		line-height: 15px;
+	}
+	&-title {
+		color: white;
+		font-weight: 300;
+		font-size: 16px;
+		margin: 0 0 6px;
+		display: block;
+		line-height: 20px;
+	}
+	&-subtitle {
+		color: #B2B7C4;
+		margin: 0 0 8px 0;
+		font-size: 14px;
+		line-height: 16px;
+		font-weight: 300;
+	}
+}

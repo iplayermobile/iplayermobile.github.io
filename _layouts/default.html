@@ -7,11 +7,16 @@
 		</head>
 		<body>
 			{% include header.html %}
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
+			<!--Continue watching-->
+				{% include carousel.html bundle=site.data.baseline-tv-watching bundle-title="Continue Watching"%}
+			<!--High priority-->
+				{% include carousel.html bundle=site.data.baseline-tv-high-priority bundle-title="High Priority content"%}
+			<!--Most popular-->
+				{% include carousel.html bundle=site.data.baseline-most-popular bundle-title="Most popular"%}
+			<!--Recommened for you-->
+				{% include carousel.html bundle=site.data.baseline-recs bundle-title="Recommended for you"%}
+			<!--Normal priority-->
+				{% include carousel.html bundle=site.data.baseline-normal-priority bundle-title="Normal priority group"%}
 			{% include footer.html %}
 		</body>
 	</html>

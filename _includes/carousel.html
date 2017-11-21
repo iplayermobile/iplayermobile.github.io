@@ -1,0 +1,19 @@
+
+<section class="bundle {{ page.mode }}">
+	<h1 class="bundle-title">{{ include.bundle-title }}</h1>
+	<ul class="bundle-contents is-scrollable">
+		{% for content-item in include.bundle %}
+		<li class="card">
+				<img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot">
+				<div class="card-meta">
+					<h2 class="card-title">
+						<span class="card-category">{{ content-item.labels.category }}</span>
+						<span class="card-editorial">{{ content-item.labels.editorial }}</span>
+						<span class="card-title">{{ content-item.title }}</span>
+					</h2>
+					<p class="card-subtitle">{{ content-item.subtitle }}</p>
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+</section>

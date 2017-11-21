@@ -1,8 +1,8 @@
 body {
 	background-color: #0C101C;
 	  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-
 }
+
 .bundle {
 	border-bottom: 1px solid #171A24;
 	&-title {
@@ -15,41 +15,7 @@ body {
 		margin: 0 0 16px 0;
 	}
 }
-.card {
-  width: 40vw;
-	list-style: none;
-	> img {
-		width: 100%;
-		margin: 0;
-		display: block;
-	}
-	&-meta {
-		margin: 8px 0;
-	}
-	&-label {
-		color: #F54997;
-		font-size: 14px;
-		font-weight: 300;
-		display: block;
-		margin-bottom: 4px;
-		line-height: 15px;
-	}
-	&-title {
-		color: white;
-		font-weight: 300;
-		font-size: 16px;
-		margin: 0 0 6px;
-		display: block;
-		line-height: 20px;
-	}
-	&-subtitle {
-		color: #B2B7C4;
-		margin: 0 0 8px 0;
-		font-size: 14px;
-		line-height: 16px;
-		font-weight: 300;
-	}
-}
+
 
 .grid-wrapper {
 	display: flex;
@@ -60,27 +26,7 @@ body {
 	}
 }
 
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding: 0;
-  .card {
-    flex: 0 0 auto;
-    margin-right: 8px;
-		&:first-child {
-			margin-left: 8px;
-		}
-  }
-}
 
-.scrolling-wrapper, .scrolling-wrapper-flexbox {
-  width: 100%;
-  -webkit-overflow-scrolling: touch;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
 
 @media (min-width: 480px) {
 	.card {
