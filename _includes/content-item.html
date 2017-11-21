@@ -1,0 +1,15 @@
+
+
+
+{% for content-item in include.bundle-item %}
+<li class="card">
+			<img src="{{ content-item.img }}" alt="The Girl with a Topnot">
+			<div class="card-meta">
+				<h2 class="card-title">
+					<span class="card-label">Label</span>
+					<span class="card-title">{{ content-item.programme-title }}</span>
+				</h2>
+				<p class="card-subtitle">{{ content-item.subtitle-title }}</p>
+			</div>
+		</li>
+{% endfor %}
