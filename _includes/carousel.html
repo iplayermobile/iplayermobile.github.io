@@ -6,11 +6,13 @@
 		<li class="card">
 				<img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot">
 				<div class="card-meta">
-					<h2 class="card-title">
-						<span class="card-category">{{ content-item.labels.category }}</span>
-						<span class="card-editorial">{{ content-item.labels.editorial }}</span>
-						<span class="card-title">{{ content-item.title }}</span>
-					</h2>
+					<div class="card-tag">
+						<span class="card-label">{{ content-item.labels.editorial }}</span>
+						{% if content-item.labels.category %}
+							<span class="card-category">| {{ content-item.labels.category }}</span>
+						{% endif %}
+					</div>
+					<h2 class="card-title">{{ content-item.title }}</h2>
 					<p class="card-subtitle">{{ content-item.subtitle }}</p>
 				</div>
 			</li>

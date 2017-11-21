@@ -3,6 +3,9 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<meta name="robots" content="noindex">
+			<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main-{{page.mode}}.css">
 		</head>
@@ -13,11 +16,11 @@
 			<!--High priority-->
 				{% include carousel.html bundle=site.data.baseline-tv-high-priority bundle-title="High Priority content"%}
 			<!--Most popular-->
-				{% include carousel.html bundle=site.data.baseline-most-popular bundle-title="Most popular"%}
+				{% include carousel.html bundle=site.data.baseline-most-popular bundle-title="Most Popular"%}
 			<!--Recommened for you-->
 				{% include carousel.html bundle=site.data.baseline-recs bundle-title="Recommended for you"%}
 			<!--Normal priority-->
-				{% include carousel.html bundle=site.data.baseline-normal-priority bundle-title="Normal priority group"%}
+				{% include carousel.html bundle=site.data.baseline-normal-priority bundle-title="Normal Priority group"%}
 			{% include footer.html %}
 		</body>
 	</html>
