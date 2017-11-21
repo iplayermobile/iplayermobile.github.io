@@ -1,0 +1,11 @@
+
+
+.card {
+  width: 40vw;
+  @media (min-width: 480px) {
+    width: 27vw;
+  }
+  @media (min-width: 876px) {
+    width: 22vw;
+  }
+}

@@ -16,26 +16,11 @@ body {
 	}
 }
 
-
 .grid-wrapper {
 	display: flex;
 	padding: 0 4px;
 	.card {
 		flex: 1 0 auto;
 		padding: 4px;
-	}
-}
-
-
-
-@media (min-width: 480px) {
-	.card {
-		width: 27vw;
-	}
-}
-
-@media (min-width: 876px) {
-	.card {
-		width: 22vw;
 	}
 }
