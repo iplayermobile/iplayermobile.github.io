@@ -9,7 +9,7 @@
 		"standard": "/img/blue-planet.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": "New series"
 	},
 	"versions": {
@@ -26,7 +26,7 @@
 		"standard": "/img/the-apprentice.jpg"
 	},
 	"labels": {
-		"category": "Entertainment",
+		"category": "| Entertainment",
 		"editorial": "New episode"
 	},
 	"versions": {
@@ -43,7 +43,7 @@
 		"standard": "/img/19yrs-new-on-iplayer/p05g2h0y.jpg"
 	},
 	"labels": {
-		"category": "Music",
+		"category": "| Music",
 		"editorial": "New episode"
 	},
 	"versions": {
