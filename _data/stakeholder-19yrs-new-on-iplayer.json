@@ -10,7 +10,7 @@
 	},
 	"labels": {
 		"category": "| Documentary",
-		"editorial": "New series"
+		"editorial": "New Series"
 	},
 	"versions": {
 		"duration": "20 mins"
@@ -27,7 +27,7 @@
 	},
 	"labels": {
 		"category": "| Entertainment",
-		"editorial": "New episode"
+		"editorial": "New Episode"
 	},
 	"versions": {
 		"duration": "60 mins"
@@ -44,7 +44,7 @@
 	},
 	"labels": {
 		"category": "| Music",
-		"editorial": "New episode"
+		"editorial": "New Episode"
 	},
 	"versions": {
 		"duration": "16 mins"
