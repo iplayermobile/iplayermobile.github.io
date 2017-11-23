@@ -22,4 +22,7 @@
       margin-left: 4px;
     }
   }
+  @media (min-width: 1024px) {
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
 }
