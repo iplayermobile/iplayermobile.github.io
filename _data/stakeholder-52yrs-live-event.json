@@ -1,0 +1,52 @@
+[{
+	"title": "Foo Fighters",
+	"subtitle": "One of the greatest bands on the planet and after this - one of the greatest of all time.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "One of the greatest bands on the planet and after this - one of the greatest of all time."
+	},
+	"images": {
+		"standard": "/img/52yrs-live-event/p056vtmn.jpg"
+	},
+	"labels": {
+		"category": "Music",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "64 mins"
+	}
+}, {
+	"title": "George Ezra",
+	"subtitle": "George Ezra returns to Glastonbury with guitar-laden singalong anthems in tow.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "George Ezra returns to Glastonbury with guitar-laden singalong anthems in tow."
+	},
+	"images": {
+		"standard": "/img/52yrs-live-event/p056snxv.jpg"
+	},
+	"labels": {
+		"category": "Music",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "58 mins"
+	}
+}, {
+	"title": "Barry Gib",
+	"subtitle": "The man who gave us the Bee Gees is now the man who got everyone at Glasto dancing.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "The man who gave us the Bee Gees is now the man who got everyone at Glasto dancing."
+	},
+	"images": {
+		"standard": "/img/52yrs-live-event/p056xmff.jpg"
+	},
+	"labels": {
+		"category": "Music",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "72 mins"
+	}
+}]

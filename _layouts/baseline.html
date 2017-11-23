@@ -12,9 +12,14 @@
 		<body>
 			{% include header.html %}
 			<!--Continue watching-->
-				{% include carousel.html bundle=site.data.baseline-tv-watching bundle-title="Continue Watching"%}
+				{% include carousel-large.html bundle=site.data.stakeholder-19yrs-new-on-iplayer bundle-title="Todays highlights"%}
 			<!--High priority-->
-				{% include carousel.html bundle=site.data.baseline-tv-high-priority bundle-title="High Priority content"%}
+				{% include carousel.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Open collection"%}
+				<!-- Extreme cases-->
+				{% include carousel.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Documentaries"%}
+
+				{% include grid.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Grid"%}
+
 			<!--Most popular-->
 				{% include carousel.html bundle=site.data.baseline-most-popular bundle-title="Most Popular"%}
 			<!--Recommened for you-->

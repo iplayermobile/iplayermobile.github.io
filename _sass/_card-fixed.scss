@@ -1,5 +1,8 @@
 .card {
-  width: 160px;
+  width: 190px;
+  @media (min-width: 350px) {
+    width: 150px;
+  }
   @media (min-width: 768px) {
     width: 221px;
   }
