@@ -1,12 +1,28 @@
 .card {
-  width: 190px;
-  @media (min-width: 350px) {
-    width: 150px;
-  }
-  @media (min-width: 768px) {
-    width: 221px;
+  width: 140px;
+  @media (min-width: 600px) {
+    width: 220px;
   }
   @media (min-width: 1024px) {
-    width: 278px;
+    width: 280px;
+  }
+}
+
+.card {
+  &.is-large {
+    width: 290px;
+    @media (min-width: 600px) {
+      width: 390px;
+    }
+    @media (min-width: 1024px) {
+      width: 420px;
+    }
+    .card-title {
+  		color: white;
+  		font-weight: 300;
+  		font-size: 22px;
+  		margin: 0 0 8px;
+  		line-height: 26px;
+  	}
   }
 }
