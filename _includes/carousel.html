@@ -3,7 +3,7 @@
 	<ul class="bundle-contents is-scrollable">
 		{% for content-item in include.bundle %}
 		<li class="card">
-				<img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot">
+				<img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot" class="card-image">
 				<div class="card-meta">
 					{% if content-item.labels.editorial or content-item.labels.category %}
 						<div class="card-tag">
