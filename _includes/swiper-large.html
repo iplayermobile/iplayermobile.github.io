@@ -1,0 +1,24 @@
+<div class="swiper-container-large">
+  <h1 class="bundle-title">{{ include.bundle-title }}</h1>
+  <ul class="swiper-wrapper">
+    {% for content-item in include.bundle %}
+      <li class="swiper-slide">
+        <img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot" class="card-image">
+        <div class="card-meta">
+          {% if content-item.labels.editorial or content-item.labels.category %}
+            <div class="card-tag">
+              {% if content-item.labels.editorial !=""%}
+                <span class="card-label">{{ content-item.labels.editorial }}</span>
+              {% endif %}
+              {% if content-item.labels.category !=""%}
+                <span class="card-category">{{ content-item.labels.category }}</span>
+              {% endif %}
+            </div>
+          {% endif %}
+          <h2 class="card-title-is-large">{{ content-item.title }}</h2>
+          <p class="card-subtitle">{{ content-item.subtitle }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

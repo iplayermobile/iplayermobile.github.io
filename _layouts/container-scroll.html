@@ -24,6 +24,8 @@
 		</head>
 		<body>
 			{% include header.html %}
+			{% include swiper-large.html bundle=site.data.stakeholder-19yrs-new-on-iplayer bundle-title="Todays highlights"%}
+
 			{% include swiper.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Recommended for you"%}
 			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Documentaries"%}
 
@@ -40,6 +42,15 @@
 		  <script>
 		    var swiper = new Swiper('.swiper-container', {
 		      slidesPerView: 2.2,
+		      slidesOffsetBefore: 8,
+		      spaceBetween: 8,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		    });
+				var swiper = new Swiper('.swiper-container-large', {
+		      slidesPerView: 1.1,
 		      slidesOffsetBefore: 8,
 		      spaceBetween: 8,
 		      pagination: {
