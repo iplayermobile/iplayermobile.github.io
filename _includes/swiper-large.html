@@ -1,5 +1,8 @@
 <div class="swiper-container-large">
-  <h1 class="bundle-title">{{ include.bundle-title }}</h1>
+  <div class="bundle-header">
+		<h1 class="bundle-title">{{ include.bundle-title }}</h1>
+		<a class="bundle-link"href="#">View all</a>
+	</div>
   <ul class="swiper-wrapper">
     {% for content-item in include.bundle %}
       <li class="swiper-slide">

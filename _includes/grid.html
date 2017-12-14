@@ -1,5 +1,8 @@
 <section class="bundle">
-	<h1 class="bundle-title">{{ include.bundle-title }}</h1>
+	<div class="bundle-header">
+		<h1 class="bundle-title">{{ include.bundle-title }}</h1>
+		<a class="bundle-link"href="#">View all</a>
+	</div>
 	<ul class="bundle-contents is-grid">
 		{% for content-item in include.bundle %}
 		<li class="card">
@@ -21,5 +24,4 @@
 			</li>
 		{% endfor %}
 	</ul>
-	<a class="section-cta">View all {{ include.bundle-title }}</a>
 </section>

@@ -25,13 +25,20 @@
 		<body>
 			{% include header.html %}
 			{% include swiper-large.html bundle=site.data.stakeholder-19yrs-new-on-iplayer bundle-title="Todays highlights"%}
-
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Recommended for you"%}
+		<!--High priority-->
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Continue Watching"%}
+			<!-- Extreme cases-->
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="High Priority"%}
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Most Popular"%}
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Recommended for you"%}
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Normal Priority"%}
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Drama"%}
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Comedy"%}
 			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Documentaries"%}
 
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Entertainment"%}
 
-
-			{% include grid.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Grid"%}
+			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Added"%}
 			<!-- Slider main container -->
 			{% include footer.html %}
 
