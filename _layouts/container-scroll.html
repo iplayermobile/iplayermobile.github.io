@@ -8,7 +8,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main-{{page.mode}}.css">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+			<link rel="stylesheet" href="/css/swiper.css">
 
 			<!-- Add to homescreen for Chrome on Android -->
 			<meta name="mobile-web-app-capable" content="yes">
@@ -24,21 +24,39 @@
 		</head>
 		<body>
 			{% include header.html %}
-			{% include swiper-large.html bundle=site.data.stakeholder-19yrs-new-on-iplayer bundle-title="Todays highlights"%}
-		<!--High priority-->
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-new-on-iplayer bundle-title="Continue Watching"%}
-			<!-- Extreme cases-->
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="High Priority"%}
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Most Popular"%}
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Recommended for you"%}
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Normal Priority"%}
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Drama"%}
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Comedy"%}
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Documentaries"%}
-
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Entertainment"%}
-
-			{% include swiper.html bundle=site.data.stakeholder-27yrs-documentaries bundle-title="Added"%}
+			<!--Todays highlights-->
+				{% include bundle-title.html bundle-title="iPlayer highlights" bundle-href="editorial-highlights"%}
+				{% include swiper-large.html bundle=site.data.editorial-highlights %}
+			<!--Continue Watching-->
+				{% include bundle-title.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
+				{% include swiper.html bundle=site.data.continue-watching %}
+			<!-- High Priority-->
+				{% include bundle-title.html bundle-title="High Priority" bundle-href="high-priority"%}
+				{% include swiper.html bundle=site.data.high-priority %}
+			<!-- Most Popular-->
+				{% include bundle-title.html bundle-title="Most Popular" bundle-href="most-popular"%}
+				{% include swiper.html bundle=site.data.most-popular bundle-title="Most Popular" %}
+			<!-- Recommended for you-->
+				{% include bundle-title.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
+				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" %}
+			<!-- Normal Priority-->
+				{% include bundle-title.html bundle-title="Normal Priority" bundle-href="normal-priority"%}
+				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" %}
+			<!-- Drama -->
+				{% include bundle-title.html bundle-title="Drama" bundle-href="drama"%}
+				{% include swiper.html bundle=site.data.drama bundle-title="Drama" %}
+			<!-- Comedy -->
+				{% include bundle-title.html bundle-title="Comedy" bundle-href="comedy"%}
+				{% include swiper.html bundle=site.data.comedy bundle-title="Comedy" %}
+			<!-- Documentaries -->
+				{% include bundle-title.html bundle-title="Documentaries" bundle-href="documentaries"%}
+				{% include swiper.html bundle=site.data.documentaries bundle-title="Documentaries" %}
+			<!-- Entertainment -->
+				{% include bundle-title.html bundle-title="Entertainment" bundle-href="entertainment"%}
+				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" %}
+			<!-- Entertainment -->
+				{% include bundle-title.html bundle-title="Added" bundle-title="You Added Programmes"%}
+				{% include swiper.html bundle=site.data.added %}
 			<!-- Slider main container -->
 			{% include footer.html %}
 

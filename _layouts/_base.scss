@@ -1,0 +1,40 @@
+body {
+	background-color: #0C101C;
+	  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.bundle {
+	border-bottom: 1px solid #171A24;
+	&-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 18px 8px 18px 8px;
+	}
+	&-link{
+		color: #B2B7C4;
+		font-size: 14px;
+		text-decoration: none;
+		&:visited, &:hover, &:active {
+			color: #B2B7C4;
+		}
+	}
+	&-title {
+		font-size: 18px;
+		color: white;
+		font-weight: normal;
+		margin: 0;
+	}
+	&-contents {
+		margin: 0 0 16px 0;
+	}
+}
+
+.grid-wrapper {
+	display: flex;
+	padding: 0 4px;
+	.card {
+		flex: 1 0 auto;
+		padding: 4px;
+	}
+}

@@ -1,12 +1,13 @@
 <section class="bundle">
-	<div class="bundle-header">
-		<h1 class="bundle-title">{{ include.bundle-title }}</h1>
-		<a class="bundle-link" href="#">View all</a>
-	</div>
 	<ul class="bundle-contents is-scrollable">
 		{% for content-item in include.bundle %}
 		<li class="card">
+			<div style="position: relative;">
 				<img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot" class="card-image">
+				{% if content-item.versions.time-spent %}
+					<span class="progress-bar"><span class="is-{{ content-item.versions.time-spent }}"></span></span>
+				{% endif %}
+			</div>
 				<div class="card-meta">
 					{% if content-item.labels.editorial or content-item.labels.category %}
 						<div class="card-tag">
@@ -23,5 +24,15 @@
 				</div>
 			</li>
 		{% endfor %}
+		<li class="swiper-slide card-onward-journey">
+      <a class="card-onward-journey-link" href="#">
+        <img src="/img/assets/icon-right-chevron.svg" class="card-onward-journey-icon">
+        <span class="card-onward-journey-link-text-wrapper">
+          <span class="card-onward-journey-link-line"></span>
+          <span class="card-onward-journey-link-text">View all</span>
+          <span class="card-onward-journey-link-subtitle">XX Programmes</span>
+        </span>
+      </a>
+    </li>
 	</ul>
 </section>

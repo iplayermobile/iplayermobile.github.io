@@ -1,6 +1,6 @@
 body {
 	background-color: #0C101C;
-	  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 .bundle {
@@ -30,11 +30,82 @@ body {
 	}
 }
 
+.progress-bar {
+	position: absolute;
+	bottom: 0;
+	height: 6px;
+	width: 100%;
+	display: block;
+	background-color: rgba(255,255,255,0.5);
+	> .is-20 {
+		width: 20%;
+		display: block;
+		height: 6px;
+		background-color: #F54997;
+	}
+	> .is-40 {
+		width: 40%;
+		display: block;
+		height: 6px;
+		background-color: #F54997;
+	}
+	> .is-60 {
+		width: 60%;
+		display: block;
+		height: 6px;
+		background-color: #F54997;
+	}
+}
+
 .grid-wrapper {
 	display: flex;
 	padding: 0 4px;
 	.card {
 		flex: 1 0 auto;
 		padding: 4px;
+	}
+}
+
+.card-onward-journey {
+	background-color: #242833;
+	padding: 16px 8px;
+	margin-right: 16px;
+	.card-onwards-journey-icon {
+
+	}
+	&-link {
+		text-decoration: none;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	&-icon {
+		margin-top: 18px;
+	}
+	&-link:visited, &-link:hover, &-link:active {
+		color: #FFFFFF;
+	}
+	&-link-text-wrapper {
+		display: block;
+		padding-bottom: 18px;
+	}
+	&-link-line {
+		width: 20px;
+		margin-bottom: 28px;
+		height: 1px;
+		display: block;
+		background-color: #F54997;
+	}
+	&-link-text {
+		color: #FFFFFF;
+		display: block;
+		margin-bottom: 4px;
+	}
+	&-link-subtitle {
+		color: #B2B7C4;
+		display: block;
+		font-size: 14px;
 	}
 }
