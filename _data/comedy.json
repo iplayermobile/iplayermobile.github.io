@@ -7,7 +7,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05qwlhy.jpg"
 	},
 	"labels": {
-		"category": "Entertainment",
+		"category": "| Entertainment",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -41,7 +41,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05nlv2w.jpg"
 	},
 	"labels": {
-		"category": "Comedy",
+		"category": "| Comedy",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -75,7 +75,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p01k0t64.jpg"
 	},
 	"labels": {
-		"category": "Comedy",
+		"category": "| Comedy",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -157,7 +157,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p04m0l6z.jpg"
 	},
 	"labels": {
-		"category": "Comedy",
+		"category": "| Comedy",
 		"editorial": "Box Set"
 	},
 	"versions": {

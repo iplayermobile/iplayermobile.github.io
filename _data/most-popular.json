@@ -93,7 +93,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05qgkcv.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -144,7 +144,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05q4mcp.jpg"
 	},
 	"labels": {
-		"category": "Nature",
+		"category": "| Nature",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -194,7 +194,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p01gzvk7.jpg"
 	},
 	"labels": {
-		"category": "CBBC",
+		"category": "| CBBC",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -226,7 +226,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05r2s2r.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -450,7 +450,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05m9gb5.jpg"
 	},
 	"labels": {
-		"category": "Drama",
+		"category": "| Drama",
 		"editorial": "Last Chance"
 	},
 	"versions": {
@@ -482,7 +482,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05pkqxx.jpg"
 	},
 	"labels": {
-		"category": "CBBC",
+		"category": "| CBBC",
 		"editorial": "Exclusive"
 	},
 	"versions": {

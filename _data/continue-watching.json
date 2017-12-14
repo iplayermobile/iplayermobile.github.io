@@ -48,7 +48,7 @@
 	},
 	"labels": {
 		"category": "",
-		"editorial": ""
+		"editorial": "10 mins left"
 	},
 	"versions": {
 		"duration": "58",
@@ -63,7 +63,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p04py14z.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "",
 		"editorial": "35 mins left"
 	},
 	"versions": {
@@ -78,8 +78,8 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05clrdr.jpg"
 	},
 	"labels": {
-		"category": "Comedy",
-		"editorial": "Box Set"
+		"category": "",
+		"editorial": "15 mins left"
 	},
 	"versions": {
 		"duration": "30 mins left",

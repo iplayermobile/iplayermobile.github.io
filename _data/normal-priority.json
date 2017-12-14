@@ -5,7 +5,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p01hz7js.jpg"
 	},
 	"labels": {
-		"category": "Lifestyle",
+		"category": "| Lifestyle",
 		"editorial": "Archive"
 	},
 	"versions": {
@@ -18,7 +18,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p014dfnt.jpg"
 	},
 	"labels": {
-		"category": "Science & Nature",
+		"category": "| Science & Nature",
 		"editorial": "Archive"
 	},
 	"versions": {
@@ -31,7 +31,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p01gwmsv.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": "Archive"
 	},
 	"versions": {
@@ -44,7 +44,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p01hz7b3.jpg"
 	},
 	"labels": {
-		"category": "Lifestyle",
+		"category": "| Lifestyle",
 		"editorial": "Archive"
 	},
 	"versions": {
@@ -58,7 +58,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p04m7gh3.jpg"
 	},
 	"labels": {
-		"category": "Comedy",
+		"category": "| Comedy",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -72,7 +72,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p01hz70y.jpg"
 	},
 	"labels": {
-		"category": "Lifestyle",
+		"category": "| Lifestyle",
 		"editorial": "Archive"
 	},
 	"versions": {

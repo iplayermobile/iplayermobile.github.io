@@ -7,7 +7,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05qs0cx.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "Documentary |",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -38,7 +38,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05qgkcv.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": "Box Set"
 	},
 	"versions": {
@@ -72,7 +72,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05q5h99.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": ""
 	},
 	"versions": {
@@ -191,7 +191,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p03r1bm9.jpg"
 	},
 	"labels": {
-		"category": "Documentary",
+		"category": "| Documentary",
 		"editorial": "Box Set"
 	},
 	"versions": {

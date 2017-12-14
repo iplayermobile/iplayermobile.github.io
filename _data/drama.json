@@ -23,7 +23,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05nc71p.jpg"
 	},
 	"labels": {
-		"category": "Drama",
+		"category": "| Drama",
 		"editorial": "New Series"
 	},
 	"versions": {
@@ -39,7 +39,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05m9gb5.jpg"
 	},
 	"labels": {
-		"category": "Drama",
+		"category": "| Drama",
 		"editorial": "Last Chance"
 	},
 	"versions": {
@@ -90,7 +90,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p04rmn49.jpg"
 	},
 	"labels": {
-		"category": "Film",
+		"category": "| Film",
 		"editorial": "Last Chance"
 	},
 	"versions": {
@@ -124,7 +124,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p04vzf14.jpg"
 	},
 	"labels": {
-		"category": "Drama",
+		"category": "| Drama",
 		"editorial": "Box Set"
 	},
 	"versions": {
