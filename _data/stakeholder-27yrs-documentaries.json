@@ -206,5 +206,213 @@
 	"versions": {
 		"duration": "120 mins"
 	}
+},{
+	"title": "Young, Welsh and Pretty Skint",
+	"subtitle": "Young Welsh men and women reveal all in their pursuit of the body beautiful.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "Young Welsh men and women reveal all in their pursuit of the body beautiful."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p02ml7b5.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "59 mins"
+	}
+}, {
+	"title": "The Gap Year Paedophile",
+	"subtitle": "How a teenage gap year student became one of Britain’s worst ever paedophiles",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "How a teenage gap year student became one of Britain’s worst ever paedophiles."
+	},
+	"images": {
+		"standard": "/img/30yrs-docs/p05glxks.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "62 mins"
+	}
+	},{
+	"title": "Hedd Wyn: The Lost War Poet",
+	"subtitle": "The life and work of Welsh poet Hedd Wyn.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "The life and work of Welsh poet Hedd Wyn."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p05bfwss.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "60 mins"
+	}
+},
+{
+	"title": "The Vietnam War",
+	"subtitle": "Series telling the epic story of the Vietnam War.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "Series telling the epic story of the Vietnam War."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p05gpfdf.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "120 mins"
+	}
+},
+{
+	"title": "Young, Welsh and Pretty Skint",
+	"subtitle": "Young Welsh men and women reveal all in their pursuit of the body beautiful.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "Young Welsh men and women reveal all in their pursuit of the body beautiful."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p02ml7b5.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "59 mins"
+	}
+}, {
+	"title": "The Gap Year Paedophile",
+	"subtitle": "How a teenage gap year student became one of Britain’s worst ever paedophiles",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "How a teenage gap year student became one of Britain’s worst ever paedophiles."
+	},
+	"images": {
+		"standard": "/img/30yrs-docs/p05glxks.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "62 mins"
+	}
+	},{
+	"title": "Hedd Wyn: The Lost War Poet",
+	"subtitle": "The life and work of Welsh poet Hedd Wyn.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "The life and work of Welsh poet Hedd Wyn."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p05bfwss.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "60 mins"
+	}
+},
+{
+	"title": "The Vietnam War",
+	"subtitle": "Series telling the epic story of the Vietnam War.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "Series telling the epic story of the Vietnam War."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p05gpfdf.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "120 mins"
+	}
+},{
+	"title": "Young, Welsh and Pretty Skint",
+	"subtitle": "Young Welsh men and women reveal all in their pursuit of the body beautiful.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "Young Welsh men and women reveal all in their pursuit of the body beautiful."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p02ml7b5.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "59 mins"
+	}
+}, {
+	"title": "The Gap Year Paedophile",
+	"subtitle": "How a teenage gap year student became one of Britain’s worst ever paedophiles",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "How a teenage gap year student became one of Britain’s worst ever paedophiles."
+	},
+	"images": {
+		"standard": "/img/30yrs-docs/p05glxks.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "62 mins"
+	}
+	},{
+	"title": "Hedd Wyn: The Lost War Poet",
+	"subtitle": "The life and work of Welsh poet Hedd Wyn.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "The life and work of Welsh poet Hedd Wyn."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p05bfwss.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "60 mins"
+	}
+},
+{
+	"title": "The Vietnam War",
+	"subtitle": "Series telling the epic story of the Vietnam War.",
+	"editorial_subtitle": "",
+	"synopses": {
+		"small": "Series telling the epic story of the Vietnam War."
+	},
+	"images": {
+		"standard": "/img/27yrs-documentaries/p05gpfdf.jpg"
+	},
+	"labels": {
+		"category": "",
+		"editorial": ""
+	},
+	"versions": {
+		"duration": "120 mins"
+	}
 }
 ]
