@@ -112,7 +112,7 @@
 		"standard": "../img/30yrs-best-of-iplayer/p05fdxqf.jpg"
 	},
 	"labels": {
-		"category": "Drama",
+		"category": "| Drama",
 		"editorial": "New Series"
 	},
 	"versions": {
@@ -129,7 +129,7 @@
 		"standard": "../img/30yrs-best-of-iplayer/p05fb2cn.jpg"
 	},
 	"labels": {
-		"category": "Crime Drama",
+		"category": "| Crime Drama",
 		"editorial": "New Series"
 	},
 	"versions": {
@@ -182,7 +182,7 @@
 		"standard": "../img/24yrs-new-on-iplayer/p05hhd9h.jpg"
 	},
 	"labels": {
-		"category": "Comedy",
+		"category": "| Comedy",
 		"editorial": "New Series"
 	},
 	"versions": {
