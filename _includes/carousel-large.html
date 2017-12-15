@@ -19,5 +19,15 @@
 				</div>
 			</li>
 		{% endfor %}
+		<li class="card card-onward-journey">
+      <a class="card-onward-journey-link" href="/{{ include.bundle-href }}">
+        <img src="/img/assets/icon-right-chevron.svg" class="card-onward-journey-icon">
+        <span class="card-onward-journey-link-text-wrapper">
+          <span class="card-onward-journey-link-line"></span>
+          <span class="card-onward-journey-link-text">View all</span>
+          <span class="card-onward-journey-link-subtitle">{{include.bundle-amount}} Programmes</span>
+        </span>
+      </a>
+    </li>
 	</ul>
 </section>
