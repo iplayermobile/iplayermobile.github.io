@@ -5,7 +5,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: sticky;
+	position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
 	top: 0;
 	z-index: 9999;
 	&-icon {
