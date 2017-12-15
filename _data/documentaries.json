@@ -7,8 +7,8 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05qs0cx.jpg"
 	},
 	"labels": {
-		"category": "Documentary |",
-		"editorial": "Box Set"
+		"category": "| Documentary",
+		"editorial": "Full Series"
 	},
 	"versions": {
 		"duration": "58"
@@ -39,7 +39,7 @@
 	},
 	"labels": {
 		"category": "| Documentary",
-		"editorial": "Box Set"
+		"editorial": "Full Series"
 	},
 	"versions": {
 		"duration": "60"
@@ -72,7 +72,7 @@
 		"standard": "https://ichef.bbci.co.uk/images/ic/832x468/p05q5h99.jpg"
 	},
 	"labels": {
-		"category": "| Documentary",
+		"category": "Documentary",
 		"editorial": ""
 	},
 	"versions": {
@@ -192,7 +192,7 @@
 	},
 	"labels": {
 		"category": "| Documentary",
-		"editorial": "Box Set"
+		"editorial": "Full Series"
 	},
 	"versions": {
 		"duration": "30"
