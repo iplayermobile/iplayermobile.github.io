@@ -68,8 +68,6 @@ body {
 
 .card-onward-journey {
 	background-color: #242833;
-	padding: 16px 8px;
-	margin-right: 16px;
 	.card-onwards-journey-icon {
 
 	}
@@ -82,16 +80,17 @@ body {
 		justify-content: space-between;
 		font-size: 16px;
 		font-weight: 300;
+    padding: 0 8px;
 	}
 	&-icon {
-		margin-top: 18px;
+		margin-top: 34px;
 	}
 	&-link:visited, &-link:hover, &-link:active {
 		color: #FFFFFF;
 	}
 	&-link-text-wrapper {
 		display: block;
-		padding-bottom: 14px;
+		padding-bottom: 28px;
 	}
 	&-link-line {
 		width: 20px;
