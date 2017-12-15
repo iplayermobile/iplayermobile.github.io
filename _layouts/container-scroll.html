@@ -25,38 +25,38 @@
 		<body>
 			{% include header.html %}
 			<!--Todays highlights-->
-				{% include bundle-title.html bundle-title="iPlayer highlights" bundle-href="editorial-highlights"%}
-				{% include swiper-large.html bundle=site.data.editorial-highlights %}
+				{% include bundle-title.html bundle-title="iPlayer Highlights" bundle-href="editorial-highlights"%}
+				{% include swiper-large.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
 			<!--Continue Watching-->
 				{% include bundle-title.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
-				{% include swiper.html bundle=site.data.continue-watching %}
+				{% include swiper.html bundle=site.data.continue-watching bundle-href="continue-watching" bundle-amount="6"%}
 			<!-- High Priority-->
-				{% include bundle-title.html bundle-title="High Priority" bundle-href="high-priority"%}
-				{% include swiper.html bundle=site.data.high-priority %}
+				{% include bundle-title.html bundle-title="Comedy Box Sets from BBC Three" bundle-href="high-priority"%}
+				{% include swiper.html bundle=site.data.high-priority bundle-href="high-priority" bundle-amount="6"%}
 			<!-- Most Popular-->
 				{% include bundle-title.html bundle-title="Most Popular" bundle-href="most-popular"%}
-				{% include swiper.html bundle=site.data.most-popular bundle-title="Most Popular" %}
+				{% include swiper.html bundle=site.data.most-popular bundle-title="Most Popular" bundle-href="most-popular" bundle-amount="30"%}
 			<!-- Recommended for you-->
-				{% include bundle-title.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
-				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" %}
+				{% include bundle-title.html bundle-title="Recommended For You" bundle-href="recommended-for-you"%}
+				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended For You" bundle-href="recommended-for-you" bundle-amount="12"%}
 			<!-- Normal Priority-->
-				{% include bundle-title.html bundle-title="Normal Priority" bundle-href="normal-priority"%}
-				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" %}
+				{% include bundle-title.html bundle-title="David Attenborough - The Early Years" bundle-href="normal-priority"%}
+				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
 			<!-- Drama -->
 				{% include bundle-title.html bundle-title="Drama" bundle-href="drama"%}
-				{% include swiper.html bundle=site.data.drama bundle-title="Drama" %}
+				{% include swiper.html bundle=site.data.drama bundle-title="Drama" bundle-href="drama" bundle-amount="12"%}
 			<!-- Comedy -->
 				{% include bundle-title.html bundle-title="Comedy" bundle-href="comedy"%}
-				{% include swiper.html bundle=site.data.comedy bundle-title="Comedy" %}
+				{% include swiper.html bundle=site.data.comedy bundle-title="Comedy" bundle-href="comedy" bundle-amount="12"%}
 			<!-- Documentaries -->
 				{% include bundle-title.html bundle-title="Documentaries" bundle-href="documentaries"%}
-				{% include swiper.html bundle=site.data.documentaries bundle-title="Documentaries" %}
+				{% include swiper.html bundle=site.data.documentaries bundle-title="Documentaries" bundle-href="documentaries" bundle-amount="12"%}
 			<!-- Entertainment -->
 				{% include bundle-title.html bundle-title="Entertainment" bundle-href="entertainment"%}
-				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" %}
+				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
 			<!-- Entertainment -->
-				{% include bundle-title.html bundle-title="Added" bundle-title="You Added Programmes"%}
-				{% include swiper.html bundle=site.data.added %}
+				{% include bundle-title.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
+				{% include swiper.html bundle=site.data.added bundle-href="added"%}
 			<!-- Slider main container -->
 			{% include footer.html %}
 
