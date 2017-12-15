@@ -80,6 +80,8 @@ body {
 		height: 100%;
 		align-items: flex-start;
 		justify-content: space-between;
+		font-size: 16px;
+		font-weight: 300;
 	}
 	&-icon {
 		margin-top: 18px;
@@ -89,7 +91,7 @@ body {
 	}
 	&-link-text-wrapper {
 		display: block;
-		padding-bottom: 18px;
+		padding-bottom: 14px;
 	}
 	&-link-line {
 		width: 20px;
