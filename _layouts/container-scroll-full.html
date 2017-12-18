@@ -75,6 +75,18 @@
 		        el: '.swiper-pagination',
 		        clickable: true,
 		      },
+					breakpoints: {
+						599: {
+							slidesPerView: 2.2
+						},
+				    // when window width is <= 640px
+				    1023: {
+				      slidesPerView: 3.2
+				    },
+ 				    1366: {
+ 				      slidesPerView: 4.2
+ 				    }
+				  }
 		    });
 				var swiper = new Swiper('.swiper-container-large', {
 		      slidesPerView: 1.30,
@@ -85,6 +97,14 @@
 		        el: '.swiper-pagination',
 		        clickable: true,
 		      },
+					breakpoints: {
+						599: {
+							slidesPerView: 1.30
+						},
+ 				    1366: {
+ 				      slidesPerView: 2.30
+ 				    }
+				  }
 		    });
 		  </script>
 		</body>
