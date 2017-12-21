@@ -76,6 +76,16 @@
 		        el: '.swiper-pagination',
 		        clickable: true,
 		      },
+					breakpoints: {
+				    // when window width is <= 480px
+				    600: {
+				      slidesPerView: 3.2
+				    },
+				    // when window width is <= 640px
+				    1024: {
+				      slidesPerView: 4.2
+				    }
+				  }
 		    });
 				var swiper = new Swiper('.swiper-container-large', {
 		      slidesPerView: 1.3,

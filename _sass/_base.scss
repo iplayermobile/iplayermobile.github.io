@@ -4,12 +4,12 @@ body {
 }
 
 .bundle {
-	border-bottom: 1px solid #171A24;
 	&-header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 18px 8px 18px 8px;
+		border-top: 1px solid #171A24;
 	}
 	&-link{
 		color: #B2B7C4;
@@ -68,9 +68,6 @@ body {
 
 .card-onward-journey {
 	background-color: #242833;
-	.card-onwards-journey-icon {
-
-	}
 	&-link {
 		text-decoration: none;
 		display: flex;

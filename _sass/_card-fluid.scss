@@ -1,26 +1,20 @@
 .card {
-  width: 44vw;
+  width: calc(80vw / 2);
   @media (min-width: 600px) {
-    width: 30vw;
+    width: calc(90vw / 3);
     font-size: 16px;
     line-height: 20px;
+    max-width: 300px;
   }
-  @media (min-width: 768px) {
-    width: 30vw;
-  }
-  @media (min-width: 1024px) {
-    width: 23vw;
-  }
+
 }
 
 .card {
   &.is-large {
     width: 76vw;
     @media (min-width: 600px) {
-      width: 45vw;
-    }
-    @media (min-width: 1024px) {
-      width: 40vw;
+      width: calc(90vw / 2);
+      max-width: 414px;
     }
     .card-title {
   		color: white;
