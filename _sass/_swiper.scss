@@ -1,6 +1,14 @@
 .swiper-container {
   width: 100%;
   height: 100%;
+  .swiper-slide {
+    max-width: 300px;
+  }
+  &.is-list {
+    .swiper-slide {
+      max-width: none;
+    }
+  }
 }
 
 .swiper-wrapper {
@@ -11,14 +19,10 @@
 
 .swiper-slide {
   height: auto;
-  max-width: 414px;
 }
 
-.swiper-container {
-  .swiper-slide {
-    max-width: 300px;
-  }
-}
+
+
 
 .swiper-container-large {
   width: 100%;
