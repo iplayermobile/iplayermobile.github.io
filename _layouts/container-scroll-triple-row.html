@@ -32,28 +32,28 @@
 				{% include swiper-triple-row.html bundle=site.data.continue-watching bundle-href="continue-watching" bundle-amount="6"%}
 			<!-- High Priority-->
 				{% include bundle-title.html bundle-title="Comedy Box Sets from BBC Three" bundle-href="high-priority"%}
-				{% include swiper-triple-row.html bundle=site.data.high-priority bundle-href="high-priority" bundle-amount="6"%}
+				{% include swiper.html bundle=site.data.high-priority bundle-href="high-priority" bundle-amount="6"%}
 			<!-- Most Popular-->
 				{% include bundle-title.html bundle-title="Most Popular" bundle-href="most-popular"%}
 				{% include swiper-triple-row.html bundle=site.data.most-popular bundle-title="Most Popular" bundle-href="most-popular" bundle-amount="30"%}
 			<!-- Recommended for you-->
 				{% include bundle-title.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
-				{% include swiper-triple-row.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" bundle-href="recommended-for-you" bundle-amount="12"%}
+				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" bundle-href="recommended-for-you" bundle-amount="12"%}
 			<!-- Normal Priority-->
 				{% include bundle-title.html bundle-title="Attenborough - The Early Years" bundle-href="normal-priority"%}
-				{% include swiper-triple-row.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
+				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
 			<!-- Drama -->
 				{% include bundle-title.html bundle-title="Drama" bundle-href="drama"%}
-				{% include swiper-triple-row.html bundle=site.data.drama bundle-title="Drama" bundle-href="drama" bundle-amount="12"%}
+				{% include swiper.html bundle=site.data.drama bundle-title="Drama" bundle-href="drama" bundle-amount="12"%}
 			<!-- Comedy -->
 				{% include bundle-title.html bundle-title="Comedy" bundle-href="comedy"%}
-				{% include swiper-triple-row.html bundle=site.data.comedy bundle-title="Comedy" bundle-href="comedy" bundle-amount="12"%}
+				{% include swiper.html bundle=site.data.comedy bundle-title="Comedy" bundle-href="comedy" bundle-amount="12"%}
 			<!-- Documentaries -->
 				{% include bundle-title.html bundle-title="Documentaries" bundle-href="documentaries"%}
-				{% include swiper-triple-row.html bundle=site.data.documentaries bundle-title="Documentaries" bundle-href="documentaries" bundle-amount="12"%}
+				{% include swiper.html bundle=site.data.documentaries bundle-title="Documentaries" bundle-href="documentaries" bundle-amount="12"%}
 			<!-- Entertainment -->
 				{% include bundle-title.html bundle-title="Entertainment" bundle-href="entertainment"%}
-				{% include swiper-triple-row.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
+				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
 			<!-- Entertainment -->
 				{% include bundle-title.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
 				{% include swiper-triple-row.html bundle=site.data.added bundle-href="added" bundle-amount="6" %}
@@ -65,7 +65,28 @@
 
 		  <!-- Initialize Swiper-->
 		  <script>
-		    var swiper = new Swiper('.swiper-container', {
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView: 2.2,
+					slidesOffsetBefore: 8,
+					slidesOffsetAfter: 8,
+					spaceBetween: 8,
+					slidesPerGroup: 1,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+					breakpoints: {
+						// when window width is <= 480px
+						600: {
+							slidesPerView: 3.2
+						},
+						// when window width is <= 640px
+						1024: {
+							slidesPerView: 4.2
+						}
+					}
+				});
+				var swiper = new Swiper('.swiper-is-list', {
 		      slidesPerView: 1.1,
 		      slidesOffsetBefore: 8,
 					slidesOffsetAfter: 8,
@@ -80,7 +101,7 @@
 							slidesPerView: 1.1
 						},
 				    1023: {
-				      slidesPerView: 3.2
+				      slidesPerView: 2.1
 				    },
  				    1366: {
  				      slidesPerView: 4.2
