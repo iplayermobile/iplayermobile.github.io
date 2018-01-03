@@ -65,28 +65,29 @@
 
 		  <!-- Initialize Swiper-->
 		  <script>
-				var swiper = new Swiper('.swiper-container', {
-					slidesPerView: 2.2,
-					slidesOffsetBefore: 8,
-					slidesOffsetAfter: 8,
-					spaceBetween: 8,
-					slidesPerGroup: 1,
-					pagination: {
-						el: '.swiper-pagination',
-						clickable: true,
+			var swiper = new Swiper('.swiper-container', {
+				slidesPerView: 2.2,
+				slidesOffsetBefore: 8,
+				slidesOffsetAfter: 8,
+				spaceBetween: 8,
+				slidesPerGroup: 2,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				breakpoints: {
+					599: {
+						slidesPerView: 2.2
 					},
-					breakpoints: {
-						// when window width is <= 480px
-						600: {
-							slidesPerView: 3.2
-						},
-						// when window width is <= 640px
-						1024: {
-							slidesPerView: 4.2
-						}
+					1023: {
+						slidesPerView: 3.2
+					},
+					1366: {
+						slidesPerView: 4.2
 					}
-				});
-				var swiper = new Swiper('.swiper-is-list', {
+				}
+			});
+				var swiper = new Swiper('.swiper-container-is-list', {
 		      slidesPerView: 1.1,
 		      slidesOffsetBefore: 8,
 					slidesOffsetAfter: 8,
