@@ -60,3 +60,65 @@
 .single-promo {
 	margin: 0 8px 32px 8px;
 }
+
+.is-grid-double-row {
+	display: grid;
+	grid-template-columns: 50% 50%;
+  grid-gap: 8px;
+	padding: 0;
+	margin: 0 8px 0 0;
+	list-style: none;
+}
+
+.grid-item {
+	&-image {
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+	&-meta {
+		margin: 8px 0;
+	}
+	&-label {
+		color: #F54997;
+		font-size: 14px;
+		font-weight: 300;
+		display: inline-block;
+		margin-bottom: 4px;
+		line-height: 15px;
+	}
+  &-category {
+		color: #B2B7C4;
+		font-size: 14px;
+		font-weight: 300;
+		display: inline-block;
+		margin-bottom: 4px;
+		line-height: 15px;
+	}
+	&-title {
+		color: white;
+		font-weight: 300;
+		font-size: 16px;
+		margin: 0 0 6px;
+		display: block;
+		line-height: 20px;
+	}
+	&-title-is-large {
+		color: white;
+		font-weight: 300;
+		font-size: 22px;
+		margin: 0 0 8px;
+		line-height: 26px;
+		color: #FFF;
+	}
+	&-subtitle {
+		color: #B2B7C4;
+		margin: 0 0 8px 0;
+		font-size: 14px;
+		line-height: 16px;
+		font-weight: 300;
+		white-space: nowrap;
+  	overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}

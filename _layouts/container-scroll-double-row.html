@@ -24,63 +24,73 @@
 		</head>
 		<body>
 			{% include header.html %}
-			<!--Todays highlights-->
+			 <!--Todays highlights-->
 				{% include bundle-title.html bundle-title="iPlayer Highlights" bundle-href="editorial-highlights"%}
 				{% include swiper-large.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
 			<!--Continue Watching-->
 				{% include bundle-title.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
-				{% include swiper.html bundle=site.data.continue-watching bundle-href="continue-watching" bundle-amount="6"%}
+				{% include hardcoded-item/continue-watching-hardcoded.html %}
+
 			<!-- High Priority-->
 				{% include bundle-title.html bundle-title="Comedy Box Sets from BBC Three" bundle-href="high-priority"%}
-				{% include swiper.html bundle=site.data.high-priority bundle-href="high-priority" bundle-amount="6"%}
+				{% include hardcoded-item/high-priority-hardcoded.html %}
+
 			<!-- Most Popular-->
 				{% include bundle-title.html bundle-title="Most Popular" bundle-href="most-popular"%}
-				{% include swiper.html bundle=site.data.most-popular bundle-title="Most Popular" bundle-href="most-popular" bundle-amount="30"%}
+				{% include hardcoded-item/most-popular-hardcoded.html %}
+
 			<!-- Recommended for you-->
 				{% include bundle-title.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
-				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" bundle-href="recommended-for-you" bundle-amount="12"%}
+				{% include hardcoded-item/recommended-for-you-hardcoded.html %}
+
+
+
 			<!-- Normal Priority-->
 				{% include bundle-title.html bundle-title="Attenborough - The Early Years" bundle-href="normal-priority"%}
-				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
-			<!-- Drama -->
+				{% include hardcoded-item/normal-priority-hardcoded.html %}
+{% comment %}
+				{% include bundle-title.html bundle-title="Attenborough - The Early Years" bundle-href="normal-priority"%}
+				{% include swiper-double-row.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
+			<!--Drama
 				{% include bundle-title.html bundle-title="Drama" bundle-href="drama"%}
-				{% include swiper.html bundle=site.data.drama bundle-title="Drama" bundle-href="drama" bundle-amount="12"%}
-			<!-- Comedy -->
+				{% include swiper-double-row.html bundle=site.data.drama bundle-title="Drama" bundle-href="drama" bundle-amount="12"%}-->
+			<!-- Comedy
 				{% include bundle-title.html bundle-title="Comedy" bundle-href="comedy"%}
-				{% include swiper.html bundle=site.data.comedy bundle-title="Comedy" bundle-href="comedy" bundle-amount="12"%}
-			<!-- Documentaries -->
+				{% include swiper-double-row.html bundle=site.data.comedy bundle-title="Comedy" bundle-href="comedy" bundle-amount="12"%}-->
+			<!-- Documentaries
 				{% include bundle-title.html bundle-title="Documentaries" bundle-href="documentaries"%}
-				{% include swiper.html bundle=site.data.documentaries bundle-title="Documentaries" bundle-href="documentaries" bundle-amount="12"%}
-			<!-- Entertainment -->
+				{% include swiper-double-row.html bundle=site.data.documentaries bundle-title="Documentaries" bundle-href="documentaries" bundle-amount="12"%}-->
+			<!-- Entertainment
 				{% include bundle-title.html bundle-title="Entertainment" bundle-href="entertainment"%}
-				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
-			<!-- Entertainment -->
+				{% include swiper-double-row.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}-->
+			<!-- Added
 				{% include bundle-title.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
-				{% include swiper.html bundle=site.data.added bundle-href="added" bundle-amount="6" %}
-			<!-- Slider main container -->
-			{% include footer.html %}
+				{% include swiper-double-row.html bundle=site.data.added bundle-href="added" bundle-amount="6" %}-->
+			<!-- Slider main container --> {% endcomment %}
+
+
 
 		  <!-- Swiper JS -->
 		  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
 
 		  <!-- Initialize Swiper-->
 		  <script>
-		    var swiper = new Swiper('.swiper-container', {
-		      slidesPerView: 2.2,
+				var swiper = new Swiper('.swiper-container-is-list', {
+		      slidesPerView: 1.1,
 		      slidesOffsetBefore: 8,
 					slidesOffsetAfter: 8,
 		      spaceBetween: 8,
-					slidesPerGroup: 2,
+					slidesPerGroup: 1,
 		      pagination: {
 		        el: '.swiper-pagination',
 		        clickable: true,
 		      },
 					breakpoints: {
 						599: {
-							slidesPerView: 2.2
+							slidesPerView: 1.1
 						},
 				    1023: {
-				      slidesPerView: 3.2
+				      slidesPerView: 2.1
 				    },
  				    1366: {
  				      slidesPerView: 4.2
@@ -98,13 +108,13 @@
 		      },
 					breakpoints: {
 						599: {
-							slidesPerView: 1.2
+							slidesPerView: 1.3
 						},
 						1023: {
-				      slidesPerView: 2.2
+				      slidesPerView: 2.4
 				    },
  				    1366: {
- 				      slidesPerView: 2.2
+ 				      slidesPerView: 2.4
  				    }
 				  }
 		    });

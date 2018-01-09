@@ -1,30 +1,30 @@
 <div class="swiper-container-is-list">
   <ul class="swiper-wrapper">
     {% for content-item in include.bundle %}
-       {% cycle '<li class="swiper-slide"><ul class="list-group">','','' %}
-            <li class="list-item">
+       {% cycle '<li class="swiper-slide"><ul class="is-grid-double-row">','','','' %}
+            <li class="grid-item">
               <div style="position: relative;">
-                <img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot" class="list-image">
+                <img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot" class="grid-item-image">
                 {% if content-item.versions.time-spent %}
                   <span class="progress-bar"><span class="is-{{ content-item.versions.time-spent }}"></span></span>
                 {% endif %}
               </div>
-              <div class="list-item-meta">
+              <div class="grid-item-meta">
                 {% if content-item.labels.editorial or content-item.labels.category %}
-                  <div class="list-item-tag">
+                  <div class="grid-item-tag">
                     {% if content-item.labels.editorial !=""%}
-                      <span class="list-item-label">{{ content-item.labels.editorial }}</span>
+                      <span class="grid-item-label">{{ content-item.labels.editorial }}</span>
                     {% endif %}
                     {% if content-item.labels.category !=""%}
-                      <span class="list-item-category">{{ content-item.labels.category }}</span>
+                      <span class="grid-item-category">{{ content-item.labels.category }}</span>
                     {% endif %}
                   </div>
                 {% endif %}
-                <h2 class="list-item-title">{{ content-item.title }}</h2>
-                <p class="list-item-subtitle">{{ content-item.subtitle }}</p>
+                <h2 class="grid-item-title">{{ content-item.title }}</h2>
+                <p class="grid-item-subtitle">{{ content-item.subtitle }}</p>
               </div>
             </li>
-       {% cycle '','','</li></ul>' %}
+       {% cycle '','','','</li></ul>' %}
     {% endfor %}
   </ul>
 </div>
