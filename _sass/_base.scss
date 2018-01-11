@@ -28,6 +28,13 @@ body {
 	&-contents {
 		margin: 0 0 16px 0;
 	}
+	&-title-link {
+		color: #FFF;
+		text-decoration: none;
+		&:visited, &:hover, &:active {
+			color: #FFF;
+		}
+	}
 }
 
 .progress-bar {
