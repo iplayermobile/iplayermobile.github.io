@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<meta name="robots" content="noindex">
+			<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main-{{page.mode}}.css">
+			<link rel="stylesheet" href="/css/swiper.css">
+
+			<!-- Add to homescreen for Chrome on Android -->
+			<meta name="mobile-web-app-capable" content="yes">
+			<meta name="application-name" content="{{page.mode}}">
+
+			<!-- Add to homescreen for Safari on iOS -->
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-status-bar-style" content="black">
+			<meta name="apple-mobile-web-app-title" content="{{page.mode}}">
+
+			<!-- Color the status bar on mobile devices -->
+			<meta name="theme-color" content="#020110">
+		</head>
+		<body>
+			{% include header.html %}
+			<!--Todays highlights-->
+				{% include bundle-title-with-category-link.html bundle-title="iPlayer Highlights" bundle-href="editorial-highlights"%}
+				{% include swiper-large.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
+			<!--Continue Watching-->
+				{% include bundle-title-with-category-link.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
+				{% include swiper.html bundle=site.data.continue-watching bundle-href="continue-watching" bundle-amount="6"%}
+			<!-- High Priority-->
+				{% include bundle-title-with-category-link.html bundle-title="Comedy Box Sets from BBC Three" bundle-href="high-priority"%}
+				{% include swiper.html bundle=site.data.high-priority bundle-href="high-priority" bundle-amount="6"%}
+			<!-- Most Popular-->
+				{% include bundle-title-with-category-link.html bundle-title="Most Popular" bundle-href="most-popular"%}
+				{% include swiper.html bundle=site.data.most-popular bundle-title="Most Popular" bundle-href="most-popular" bundle-amount="30"%}
+			<!-- Recommended for you-->
+				{% include bundle-title-with-category-link.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
+				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" bundle-href="recommended-for-you" bundle-amount="12"%}
+			<!-- Normal Priority-->
+				{% include bundle-title-with-category-link.html bundle-title="Attenborough - The Early Years" bundle-href="normal-priority"%}
+				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
+			<!-- Drama -->
+				{% include bundle-title-with-category-link.html bundle-title="Drama" bundle-href="drama"%}
+				{% include swiper.html bundle=site.data.drama bundle-title="Drama" bundle-href="drama" bundle-amount="12"%}
+			<!-- Comedy -->
+				{% include bundle-title-with-category-link.html bundle-title="Comedy" bundle-href="comedy"%}
+				{% include swiper.html bundle=site.data.comedy bundle-title="Comedy" bundle-href="comedy" bundle-amount="12"%}
+			<!-- Documentaries -->
+				{% include bundle-title-with-category-link.html bundle-title="Documentaries" bundle-href="documentaries"%}
+				{% include swiper.html bundle=site.data.documentaries bundle-title="Documentaries" bundle-href="documentaries" bundle-amount="12"%}
+			<!-- Entertainment -->
+				{% include bundle-title-with-category-link.html bundle-title="Entertainment" bundle-href="entertainment"%}
+				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
+			<!-- Entertainment -->
+				{% include bundle-title-with-category-link.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
+				{% include swiper.html bundle=site.data.added bundle-href="added" bundle-amount="6" %}
+			<!-- Slider main container -->
+			{% include footer.html %}
+
+		  <!-- Swiper JS -->
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+
+		  <!-- Initialize Swiper-->
+		  <script>
+		    var swiper = new Swiper('.swiper-container', {
+		      slidesPerView: 2.2,
+		      slidesOffsetBefore: 8,
+					slidesOffsetAfter: 8,
+		      spaceBetween: 8,
+					slidesPerGroup: 2,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+					breakpoints: {
+						599: {
+							slidesPerView: 2.2
+						},
+				    1023: {
+				      slidesPerView: 3.2
+				    },
+ 				    1366: {
+ 				      slidesPerView: 4.2
+ 				    }
+				  }
+		    });
+				var swiper = new Swiper('.swiper-container-large', {
+		      slidesPerView: 1.30,
+		      slidesOffsetBefore: 8,
+					slidesOffsetAfter: 8,
+		      spaceBetween: 8,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+					breakpoints: {
+						599: {
+							slidesPerView: 1.2
+						},
+						1023: {
+				      slidesPerView: 2.2
+				    },
+ 				    1366: {
+ 				      slidesPerView: 2.2
+ 				    }
+				  }
+		    });
+		  </script>
+		</body>
+	</html>
