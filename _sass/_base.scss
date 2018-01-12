@@ -129,3 +129,18 @@ body {
 	background-color: transparent;
 	border: none;
 }
+
+.has-background {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.is-eastenders {
+	background-image: url("/img/img/eastenders-collection-bg.jpg");
+}
+
+.is-doctors {
+	background-image: url("/img/img/doctors-collection-bg.jpg");
+}

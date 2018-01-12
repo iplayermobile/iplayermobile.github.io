@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<meta name="robots" content="noindex">
+			<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main-{{page.mode}}.css">
+			<link rel="stylesheet" href="/css/swiper.css">
+
+			<!-- Add to homescreen for Chrome on Android -->
+			<meta name="mobile-web-app-capable" content="yes">
+			<meta name="application-name" content="{{page.mode}}">
+
+			<!-- Add to homescreen for Safari on iOS -->
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-status-bar-style" content="black">
+			<meta name="apple-mobile-web-app-title" content="{{page.mode}}">
+
+			<!-- Color the status bar on mobile devices -->
+			<meta name="theme-color" content="#020110">
+		</head>
+		<body>
+			{% include header-category-hightlights.html %}
+			{{content}}
+			{% include footer.html %}
+			<!-- Swiper JS -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+
+		 <!-- Initialize Swiper-->
+		 <script>
+			 var swiper = new Swiper('.swiper-container', {
+				 slidesPerView: 2.2,
+				 slidesOffsetBefore: 8,
+				 slidesOffsetAfter: 8,
+				 spaceBetween: 8,
+				 slidesPerGroup: 2,
+				 pagination: {
+					 el: '.swiper-pagination',
+					 clickable: true,
+				 },
+				 breakpoints: {
+					 599: {
+						 slidesPerView: 2.2
+					 },
+					 1023: {
+						 slidesPerView: 3.2
+					 },
+						 1366: {
+							 slidesPerView: 4.2
+						 }
+				 }
+			 });
+		 </script>
+		</body>
+	</html>
