@@ -15,12 +15,15 @@ body {
 		color: #B2B7C4;
 		font-size: 14px;
 		text-decoration: none;
+		line-height: 19px;
+		text-align: right;
 		&:visited, &:hover, &:active {
 			color: #B2B7C4;
 		}
 	}
 	&-title {
 		font-size: 18px;
+		line-height: 23px;
 		color: white;
 		font-weight: normal;
 		margin: 0;
