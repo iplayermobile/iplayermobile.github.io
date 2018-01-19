@@ -25,22 +25,22 @@
 		<body>
 			{% include header.html %}
 			<!--Todays highlights-->
-				{% include bundle-title-with-category-link.html bundle-title="iPlayer Highlights" bundle-href="editorial-highlights"%}
+				{% include bundle-title.html bundle-title="iPlayer Highlights" bundle-href="editorial-highlights"%}
 				{% include swiper-large.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
 			<!--Continue Watching-->
-				{% include bundle-title-with-category-link.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
+				{% include bundle-title-with-management-link.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
 				{% include swiper.html bundle=site.data.continue-watching bundle-href="continue-watching" bundle-amount="6"%}
 			<!-- High Priority-->
-				{% include bundle-title-with-category-link.html bundle-title="Comedy Box Sets from BBC Three" bundle-href="high-priority"%}
+				{% include bundle-title.html bundle-title="Comedy Box Sets from BBC Three" bundle-href="high-priority"%}
 				{% include swiper.html bundle=site.data.high-priority bundle-href="high-priority" bundle-amount="6"%}
 			<!-- Most Popular-->
-				{% include bundle-title-with-category-link.html bundle-title="Most Popular" bundle-href="most-popular"%}
+				{% include bundle-title.html bundle-title="Most Popular" bundle-href="most-popular"%}
 				{% include swiper.html bundle=site.data.most-popular bundle-title="Most Popular" bundle-href="most-popular" bundle-amount="30"%}
 			<!-- Recommended for you-->
-				{% include bundle-title-with-category-link.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
+				{% include bundle-title.html bundle-title="Recommended for you" bundle-href="recommended-for-you"%}
 				{% include swiper.html bundle=site.data.recommended-for-you bundle-title="Recommended for you" bundle-href="recommended-for-you" bundle-amount="12"%}
 			<!-- Normal Priority-->
-				{% include bundle-title-with-category-link.html bundle-title="Attenborough - The Early Years" bundle-href="normal-priority"%}
+				{% include bundle-title.html bundle-title="Attenborough - The Early Years" bundle-href="normal-priority"%}
 				{% include swiper.html bundle=site.data.normal-priority bundle-title="Normal Priority" bundle-href="normal-priority" bundle-amount="6"%}
 			<!-- Drama -->
 				{% include bundle-title-with-category-link.html bundle-title="Drama" bundle-href="drama-highlights"%}
@@ -55,7 +55,7 @@
 				{% include bundle-title-with-category-link.html bundle-title="Entertainment" bundle-href="entertainment"%}
 				{% include swiper.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
 			<!-- Entertainment -->
-				{% include bundle-title-with-category-link.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
+				{% include bundle-title-with-management-link.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
 				{% include swiper.html bundle=site.data.added bundle-href="added" bundle-amount="6" %}
 			<!-- Slider main container -->
 			{% include footer.html %}
