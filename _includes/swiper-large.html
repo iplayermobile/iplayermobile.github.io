@@ -19,9 +19,9 @@
         </div>
       </li>
     {% endfor %}
+    {% if page.bookend !=false %}
     <li class="swiper-slide card-onward-journey" style="max-width: 166px;">
       <a class="card-onward-journey-link" href="/{{ include.bundle-href }}">
-        <img src="/img/assets/icon-right-chevron.svg" class="card-onward-journey-icon">
         <span class="card-onward-journey-link-text-wrapper">
           <span class="card-onward-journey-link-line"></span>
           <span class="card-onward-journey-link-text">View all</span>
@@ -29,5 +29,6 @@
         </span>
       </a>
     </li>
+    {% endif %}
   </ul>
 </section>

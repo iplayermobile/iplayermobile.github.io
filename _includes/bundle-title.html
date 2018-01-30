@@ -1,4 +1,8 @@
 <div class="bundle-header">
-  <h1 class="bundle-title">{{ include.bundle-title }}</h1>
-  <a class="bundle-link" href="/{{ include.bundle-href }}">View All</a>
+  {% if page.viewall !=false %}
+    <h1 class="bundle-title">{{ include.bundle-title }}</h1>
+    <a class="bundle-link" href="/{{ include.bundle-href }}">View All</a>
+  {% else %}
+    <h1 class="bundle-title"><a href="/{{ include.bundle-href }}">{{ include.bundle-title }}</a></h1>
+  {% endif %}
 </div>

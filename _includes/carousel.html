@@ -3,7 +3,7 @@
 		{% for content-item in include.bundle %}
 		<li class="card">
 			<div style="position: relative;">
-				<img src="{{ content-item.images.standard }}" alt="The Girl with a Topnot" class="card-image">
+				<img src="{{ content-item.images.standard }}" alt="Image of: {{ content-item.labels.editorial }}" class="card-image">
 				{% if content-item.versions.time-spent %}
 					<span class="progress-bar"><span class="is-{{ content-item.versions.time-spent }}"></span></span>
 				{% endif %}
@@ -24,9 +24,9 @@
 				</div>
 			</li>
 		{% endfor %}
+		{% if page.bookend !=false %}
 		<li class="card card-onward-journey">
       <a class="card-onward-journey-link" href="/{{ include.bundle-href }}">
-        <img src="/img/assets/icon-right-chevron.svg" class="card-onward-journey-icon">
         <span class="card-onward-journey-link-text-wrapper">
           <span class="card-onward-journey-link-line"></span>
           <span class="card-onward-journey-link-text">View all</span>
@@ -34,5 +34,6 @@
         </span>
       </a>
     </li>
+		{% endif %}
 	</ul>
 </section>

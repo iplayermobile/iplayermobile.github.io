@@ -10,6 +10,8 @@ body {
 		align-items: center;
 		padding: 18px 8px 18px 8px;
 		border-top: 1px solid #171A24;
+		color: #FFFFFF;
+
 	}
 	&-link{
 		color: #B2B7C4;
@@ -27,6 +29,10 @@ body {
 		color: white;
 		font-weight: normal;
 		margin: 0;
+		> a {
+			text-decoration: none;
+		color: inherit;
+		}
 	}
 	&-contents {
 		margin: 0 0 16px 0;
@@ -81,9 +87,9 @@ body {
 	&-link {
 		text-decoration: none;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		height: 100%;
-		align-items: flex-start;
+		align-items: flex-end;
 		justify-content: space-between;
 		font-size: 16px;
 		font-weight: 300;
