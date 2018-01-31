@@ -17,10 +17,10 @@
   padding: 0;
   margin: 0 4px;
   .card {
-    margin: 0 4px 32px 4px;
+    padding: 0 4px 32px 4px;
     width: auto;
     &:first-child {
-      margin-left: 4px;
+      padding-left: 4px;
     }
   }
   @media (min-width: 1024px) {
