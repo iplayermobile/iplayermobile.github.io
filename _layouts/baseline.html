@@ -24,8 +24,9 @@
 		<body>
 			{% include header.html %}
 			<!--Todays highlights-->
-				{% include bundle-title.html bundle-title="iPlayer Highlights" bundle-href="editorial-highlights"%}
+			<div style="margin-top: 8px;">
 				{% include carousel-large.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
+			</div>
 			<!--Continue Watching-->
 				{% include bundle-title.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
 				{% include carousel.html bundle=site.data.continue-watching bundle-href="continue-watching" bundle-amount="6"%}

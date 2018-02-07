@@ -1,0 +1,39 @@
+<section class="bundle">
+	<ul class="bundle-contents is-scrollable">
+		{% for content-item in include.bundle %}
+		<li class="card">
+			<div style="position: relative;">
+				<img src="{{ content-item.images.standard }}" alt="Image of: {{ content-item.labels.editorial }}" class="card-image">
+				{% if content-item.versions.time-spent %}
+					<span class="progress-bar"><span class="is-{{ content-item.versions.time-spent }}"></span></span>
+				{% endif %}
+			</div>
+				<div class="card-meta">
+					{% if content-item.labels.editorial or content-item.labels.category %}
+						<div class="card-tag">
+							{% if content-item.labels.editorial !=""%}
+								<span class="card-label">{{ content-item.labels.editorial }}</span>
+							{% endif %}
+							{% if content-item.labels.category !=""%}
+								<span class="card-category">{{ content-item.labels.category }}</span>
+							{% endif %}
+						</div>
+					{% endif %}
+					<h2 class="card-title">{{ content-item.title }}</h2>
+					<p class="card-subtitle">{{ content-item.subtitle }}</p>
+				</div>
+			</li>
+		{% endfor %}
+		{% if page.bookend !=false %}
+		<li class="card card-onward-journey">
+      <a class="card-onward-journey-link" href="/{{ include.bundle-href }}">
+        <span class="card-onward-journey-link-text-wrapper">
+          <span class="card-onward-journey-link-line"></span>
+          <span class="card-onward-journey-link-text">View all</span>
+          <span class="card-onward-journey-link-subtitle">{{include.bundle-amount}} Programmes</span>
+        </span>
+      </a>
+    </li>
+		{% endif %}
+	</ul>
+</section>
