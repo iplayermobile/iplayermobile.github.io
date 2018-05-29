@@ -124,6 +124,14 @@ body {
 	}
 }
 
+.list-vanilla  {
+		&-link:visited, &-link:hover, &-link:active {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+}
+
+
 .navigation-back-button {
 	margin: 0;
 	padding: 0;

@@ -25,7 +25,7 @@
 			{% include header.html %}
 			<!--Todays highlights-->
 			<div style="margin-top: 8px;">
-				{% include carousel-large.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
+				{% include carousel.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
 			</div>
 			<!--Continue Watching-->
 				{% include bundle-title.html bundle-title="Continue Watching" bundle-href="continue-watching"%}
@@ -54,6 +54,9 @@
 			<!-- Entertainment -->
 				{% include bundle-title.html bundle-title="Entertainment" bundle-href="entertainment"%}
 				{% include carousel.html bundle=site.data.entertainment bundle-title="Entertainment" bundle-href="entertainment" bundle-amount="12"%}
+			<!-- Trailers -->
+				{% include bundle-title.html bundle-title="Trailers" bundle-href="trailers" bundle-amount="6"%}
+				{% include carousel.html bundle=site.data.trailers bundle-href="Trailers" bundle-title="Trailers" bundle-amount="6" %}
 			<!-- Entertainment -->
 				{% include bundle-title.html bundle-title="Added" bundle-title="Your Added Programmes" bundle-href="added" bundle-amount="6"%}
 				{% include carousel.html bundle=site.data.added bundle-href="added" bundle-amount="6" %}
