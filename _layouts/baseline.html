@@ -25,6 +25,8 @@
 			{% include header.html %}
 			<!--Todays highlights-->
 			<div style="margin-top: 8px;">
+				{% include bundle-title.html bundle-title="Featured" bundle-href="continue-watching"%}
+
 				{% include carousel.html bundle=site.data.editorial-highlights bundle-href="editorial-highlights" bundle-amount="12"%}
 			</div>
 			<!--Continue Watching-->
